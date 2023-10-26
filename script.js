@@ -6,7 +6,7 @@ while (numeroSecreto != numeroDigitado) {
     if (numeroSecreto == numeroDigitado) 
         alert("Acertaste");
     else if (numeroSecreto > numeroDigitado)
-        alert("Te equivocaste.. el número secreto es mayor que el número digitado");
+        alert("Te equivocaste.. el número secreto es mayor que: "+numeroDigitado);
     else if (numeroSecreto < numeroDigitado)
-        alert("Te equivocaste.. el número secreto es menor que el número digitado");
+        alert("Te equivocaste.. el número secreto es menor que: "+numeroDigitado);
 }
